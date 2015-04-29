@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
       name = 'broffeact',
       packages = ['broffeact'], # this must be the same as the name above
-      version = '0.1.6.1',
+      version = '0.1.6.2',
       description = 'A simple brunch/coffeescript/reactjs documentation generator',
       author = 'Yves Lange',
       author_email = 'kursion@gmail.com',
