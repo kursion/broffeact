@@ -1,8 +1,35 @@
 Broffeact-doc
 =============
-
 A simple brunch/coffeescript/reactjs documentation generator. Naive implementation.
 
+## Features
+
+- Grab used and unused modules
+- Grab any components or functions that are exported
+- Grab the propTypes of components
+- Grab recognize function arguments
+- Get comments above components or functions
+- Displayed in an single generated html file
+- Easy to use
+- Multiple template possible
+- Building some stats (total exported, % of commented code, unused required)
+
+Installation
+============
+
+Copy/clone this package and launch python version 3 with broffeact in the directory where you want to
+generate the documentation
+
+`python broffeact`
+
+Or use pypi to install it as an executable:
+
+`pip install broffeact`
+
+Usage
+=====
+
+Just use `broffeact -h` to check which options are available.
 
 Code style
 ==========
