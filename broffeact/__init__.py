@@ -243,6 +243,10 @@ class AgDoc:
 
 
 if __name__ == '__main__':
+    main()
+
+
+def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-v", "--verbosity", help="increase output verbosity")
     parser.add_argument("-o", "--output",
